@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Meu Teste</title>
-    </head>
-    <body>
-        <?php
-            
-        ?>
-    </body>
-</html>
+<?php 
+
+ini_set('display_errors',1);
+ini_set('display_startup_erros',1);
+error_reporting(E_ALL);
+
+require_once __DIR__."/../vendor/autoload.php";
+require_once __DIR__."/../core/bootstrap.php";
+

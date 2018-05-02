@@ -10,6 +10,7 @@ class ComposerStaticInitbbe54cb7d546301054af38f540bb0e63
         'L' => 
         array (
             'Lib\\' => 4,
+            'Layout\\' => 7,
         ),
         'C' => 
         array (
@@ -25,6 +26,10 @@ class ComposerStaticInitbbe54cb7d546301054af38f540bb0e63
         'Lib\\' => 
         array (
             0 => __DIR__ . '/../..' . '/lib',
+        ),
+        'Layout\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/layout',
         ),
         'Core\\' => 
         array (
